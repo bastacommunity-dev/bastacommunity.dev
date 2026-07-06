@@ -13,7 +13,6 @@
 </head>
 <body>
 
-  <!-- Navigation -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <a href="#" class="nav-logo">
@@ -22,11 +21,11 @@
       </a>
       <div class="nav-menu" id="navMenu">
         <a href="#hero" class="nav-link active">Home</a>
-        <a href="#apps" class="nav-link">Apps</a>
-        <a href="#projects" class="nav-link">Projects</a>
-        <a href="#blog" class="nav-link">Blog</a>
-        <a href="#support" class="nav-link">Support</a>
         <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#opensource" class="nav-link">Open Source</a>
+        <a href="#updates" class="nav-link">Updates</a>
+        <a href="#support" class="nav-link">Support</a>
       </div>
       <div class="nav-actions">
         <a href="https://github.com/anomalyco" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
@@ -44,52 +43,17 @@
     </div>
   </nav>
 
-  <!-- Hero -->
   <section class="hero" id="hero">
-    <div class="hero-bg"></div>
+    <div class="hero-spotlight"></div>
     <div class="hero-container">
-      <div class="hero-content fade-in">
+      <img src="assets/images/ic_basta.png" alt="Basta Community" class="hero-logo fade-in">
+      <div class="fade-in">
         <span class="hero-badge">Independent Software Studio</span>
         <h1 class="hero-title">Build. Create. Inspire.</h1>
         <p class="hero-subtitle">Basta Community develops beautiful Android applications that empower creativity, learning, and digital art.</p>
         <div class="hero-buttons">
-          <a href="#apps" class="btn btn-primary btn-lg">Explore Apps</a>
-          <a href="#paperleaf" class="btn btn-outline btn-lg">Download Paperleaf</a>
-        </div>
-      </div>
-      <div class="hero-visual fade-in">
-        <div class="hero-illustration">
-          <div class="il-notebook">
-            <div class="il-notebook-cover">
-              <div class="il-notebook-line"></div>
-              <div class="il-notebook-line"></div>
-              <div class="il-notebook-line"></div>
-            </div>
-            <div class="il-notebook-pages"></div>
-          </div>
-          <div class="il-pencil">
-            <div class="il-pencil-tip"></div>
-            <div class="il-pencil-body"></div>
-          </div>
-          <div class="il-sketch il-sketch-1">
-            <svg viewBox="0 0 80 60" fill="none"><path d="M10 50 Q20 10 40 20 Q60 30 70 10" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" fill="none"/><circle cx="45" cy="25" r="4" fill="#DCFCE7" stroke="#16A34A" stroke-width="1.5"/><path d="M20 40 Q30 25 50 35" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/></svg>
-          </div>
-          <div class="il-sketch il-sketch-2">
-            <svg viewBox="0 0 60 50" fill="none"><rect x="10" y="10" width="40" height="30" rx="3" stroke="#3B82F6" stroke-width="2" fill="none"/><circle cx="30" cy="22" r="6" stroke="#16A34A" stroke-width="2" fill="none"/><path d="M15 35 Q30 25 45 35" stroke="#3B82F6" stroke-width="1.5" fill="none"/></svg>
-          </div>
-          <div class="il-doodle il-doodle-1">✦</div>
-          <div class="il-doodle il-doodle-2">○</div>
-          <div class="il-doodle il-doodle-3">△</div>
-          <div class="il-doodle il-doodle-4">◇</div>
-          <div class="il-doodle il-doodle-5">♡</div>
-          <div class="il-phone-frame">
-            <div class="il-phone-notch"></div>
-            <div class="il-phone-screen">
-              <div class="il-phone-bar"></div>
-              <div class="il-phone-bar"></div>
-              <div class="il-phone-bar"></div>
-            </div>
-          </div>
+          <a href="#projects" class="btn btn-primary btn-lg">Explore Projects</a>
+          <a href="#about" class="btn btn-outline btn-lg">Learn More</a>
         </div>
       </div>
     </div>
@@ -99,7 +63,6 @@
     </div>
   </section>
 
-  <!-- About -->
   <section class="section" id="about">
     <div class="container">
       <div class="section-header fade-in">
@@ -108,23 +71,23 @@
         <p class="section-desc">Basta Community is an independent software developer passionate about creating applications that are simple, elegant, and enjoyable to use. Every project is crafted with care, focusing on clean design and seamless user experiences.</p>
       </div>
       <div class="about-grid fade-in">
-        <div class="about-card">
-          <div class="about-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
           </div>
           <h3>Thoughtful Design</h3>
           <p>Every pixel placed with intention. Clean interfaces that feel natural and intuitive.</p>
         </div>
-        <div class="about-card">
-          <div class="about-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
           </div>
           <h3>Quality Craftsmanship</h3>
           <p>Built with modern technologies. Optimized, reliable, and thoroughly tested.</p>
         </div>
-        <div class="about-card">
-          <div class="about-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        <div class="card">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
           </div>
           <h3>Open Source</h3>
           <p>Believing in the power of community. Many projects are freely available on GitHub.</p>
@@ -133,8 +96,7 @@
     </div>
   </section>
 
-  <!-- Featured App / Paperleaf -->
-  <section class="section section-featured" id="paperleaf">
+  <section class="section" id="paperleaf">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Featured App</span>
@@ -143,59 +105,29 @@
       </div>
       <div class="featured-grid fade-in">
         <div class="featured-visual">
-          <div class="featured-phone">
-            <div class="featured-phone-inner">
-              <div class="featured-screen-content">
-                <div class="fp-drawing">
-                  <svg viewBox="0 0 120 160" fill="none">
-                    <path d="M20 130 Q40 60 60 80 Q80 100 100 40" stroke="#16A34A" stroke-width="3" stroke-linecap="round"/>
-                    <circle cx="65" cy="85" r="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
-                    <path d="M30 110 Q50 90 70 105" stroke="#3B82F6" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-                    <rect x="25" y="20" width="70" height="50" rx="4" stroke="#3B82F6" stroke-width="2" fill="none" opacity="0.4"/>
-                    <path d="M35 30 L45 45 L55 35" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.5"/>
-                    <line x1="30" y1="140" x2="90" y2="140" stroke="#DCFCE7" stroke-width="2" stroke-linecap="round"/>
-                    <line x1="30" y1="148" x2="75" y2="148" stroke="#DCFCE7" stroke-width="2" stroke-linecap="round"/>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="featured-screenshots">
-            <div class="screenshot-thumb">
-              <svg viewBox="0 0 60 90" fill="none"><rect x="2" y="2" width="56" height="86" rx="6" stroke="#16A34A" stroke-width="1.5" fill="none"/><line x1="10" y1="20" x2="50" y2="20" stroke="#DCFCE7" stroke-width="2" stroke-linecap="round"/><line x1="10" y1="30" x2="40" y2="30" stroke="#DCFCE7" stroke-width="2" stroke-linecap="round"/><line x1="10" y1="40" x2="50" y2="40" stroke="#DCFCE7" stroke-width="2" stroke-linecap="round"/></svg>
-            </div>
-            <div class="screenshot-thumb">
-              <svg viewBox="0 0 60 90" fill="none"><rect x="2" y="2" width="56" height="86" rx="6" stroke="#3B82F6" stroke-width="1.5" fill="none"/><circle cx="30" cy="30" r="10" stroke="#DCFCE7" stroke-width="2" fill="none"/><path d="M15 60 Q30 45 45 60" stroke="#DCFCE7" stroke-width="2" fill="none"/></svg>
-            </div>
-            <div class="screenshot-thumb">
-              <svg viewBox="0 0 60 90" fill="none"><rect x="2" y="2" width="56" height="86" rx="6" stroke="#16A34A" stroke-width="1.5" fill="none"/><rect x="10" y="15" width="40" height="25" rx="2" stroke="#DCFCE7" stroke-width="1.5" fill="none"/><line x1="10" y1="55" x2="50" y2="55" stroke="#DCFCE7" stroke-width="2"/><line x1="10" y1="63" x2="35" y2="63" stroke="#DCFCE7" stroke-width="2"/></svg>
-            </div>
-          </div>
+          <img src="assets/images/ic_paperleaf.png" alt="Paperleaf" class="featured-logo-large">
         </div>
         <div class="featured-info">
-          <div class="featured-app-icon">
-            <img src="assets/images/ic_paperleaf.png" alt="Paperleaf">
-          </div>
           <h3 class="featured-app-name">Paperleaf</h3>
           <ul class="featured-features">
             <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               Digital Sketchbook
             </li>
             <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               Hardcover Page Flip
             </li>
             <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               Multiple Books
             </li>
             <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               Smooth Reading Experience
             </li>
             <li>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
               PDF Export <span class="badge-coming">Coming Soon</span>
             </li>
           </ul>
@@ -208,39 +140,49 @@
     </div>
   </section>
 
-  <!-- Upcoming Projects -->
   <section class="section" id="projects">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Projects</span>
-        <h2 class="section-title">Upcoming Projects</h2>
-        <p class="section-desc">New experiences being crafted. Stay tuned for what's next.</p>
+        <h2 class="section-title">Our Projects</h2>
+        <p class="section-desc">Building a creative ecosystem from sketch to published book.</p>
+      </div>
+      <div class="fade-in">
+        <div class="projects-highlight">
+          <div class="projects-highlight-inner">
+            <img src="assets/images/ic_paperleaf.png" alt="Paperleaf" class="projects-highlight-icon">
+            <div>
+              <span class="project-badge">Featured</span>
+              <h3>Paperleaf</h3>
+              <p>A digital flipbook and creative notebook for Android that brings together drawing, writing, planning, and visual storytelling in one elegant workspace.</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="projects-grid fade-in" id="apps">
         <div class="project-card">
           <div class="project-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
           </div>
-          <span class="project-badge">Coming Soon</span>
-          <h3>Artobooth</h3>
-          <p>Creative platform for artists and visual creators. Share, discover, and collaborate on digital art.</p>
+          <span class="project-badge">In Development</span>
+          <h3>PageFlip Library</h3>
+          <p>A smooth, realistic page flip animation library for Android. Supports hardware acceleration and custom views.</p>
           <div class="project-placeholder"></div>
         </div>
         <div class="project-card project-card-future">
           <div class="project-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
           </div>
           <span class="project-badge project-badge-soon">Future</span>
-          <h3>More Coming</h3>
-          <p>New applications are in early development. Follow our journey for updates.</p>
+          <h3>Paperbook</h3>
+          <p>Upcoming digital publishing platform where creators can publish, sell, and read interactive flip books.</p>
           <div class="project-placeholder"></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Open Source -->
-  <section class="section section-alt" id="opensource">
+  <section class="section" id="opensource">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Open Source</span>
@@ -250,7 +192,7 @@
       <div class="oss-grid fade-in">
         <div class="oss-card">
           <div class="oss-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
           </div>
           <h3>PageFlip Library</h3>
           <p>A smooth, realistic page flip animation library for Android. Supports hardware acceleration and custom views.</p>
@@ -261,7 +203,7 @@
         </div>
         <div class="oss-card">
           <div class="oss-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
           </div>
           <h3>Paperleaf</h3>
           <p>The full Paperleaf app source code. A modern digital sketchbook built with Kotlin and Jetpack Compose.</p>
@@ -272,7 +214,7 @@
         </div>
         <div class="oss-card">
           <div class="oss-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#94A3B8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
           </div>
           <h3>Future SDKs</h3>
           <p>Upcoming SDK releases for animation libraries, UI components, and developer tools.</p>
@@ -285,8 +227,7 @@
     </div>
   </section>
 
-  <!-- Latest Updates -->
-  <section class="section" id="blog">
+  <section class="section" id="updates">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Updates</span>
@@ -322,8 +263,7 @@
     </div>
   </section>
 
-  <!-- Community -->
-  <section class="section section-alt" id="support">
+  <section class="section" id="support">
     <div class="container">
       <div class="section-header fade-in">
         <span class="section-label">Community</span>
@@ -333,7 +273,7 @@
       <div class="community-grid fade-in">
         <a href="https://github.com/anomalyco" target="_blank" rel="noopener" class="community-card">
           <div class="community-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
           </div>
           <h3>GitHub</h3>
           <p>Explore our open source code, contribute, and star your favorite projects.</p>
@@ -341,7 +281,7 @@
         </a>
         <a href="mailto:support@bastacommunity.dev" class="community-card">
           <div class="community-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           </div>
           <h3>Email Support</h3>
           <p>Get in touch with the team for questions, feedback, or partnerships.</p>
@@ -349,7 +289,7 @@
         </a>
         <a href="https://play.google.com" target="_blank" rel="noopener" class="community-card">
           <div class="community-icon">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/></svg>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.8 8.99l-2.302 2.302-8.634-8.634z"/></svg>
           </div>
           <h3>Google Play</h3>
           <p>Download our apps on Google Play and leave a review to support us.</p>
@@ -359,7 +299,6 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="footer-grid">
@@ -369,15 +308,17 @@
         </div>
         <div class="footer-links">
           <h4>Resources</h4>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
-          <a href="#">Support</a>
+          <a href="pages/privacy-policy.html">Privacy Policy</a>
+          <a href="pages/tersm-of-service.html">Terms of Service</a>
+          <a href="pages/support.html">Support</a>
+          <a href="pages/faq.html">FAQ</a>
         </div>
         <div class="footer-links">
           <h4>Connect</h4>
           <a href="https://github.com/anomalyco" target="_blank" rel="noopener">GitHub</a>
           <a href="mailto:support@bastacommunity.dev">Email</a>
           <a href="https://play.google.com" target="_blank" rel="noopener">Google Play</a>
+          <a href="pages/contact.html">Contact</a>
         </div>
       </div>
       <div class="footer-bottom">
